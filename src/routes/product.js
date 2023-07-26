@@ -15,6 +15,19 @@ const storage = multer.diskStorage ({
 
 const upload = multer ({storage: storage});
 
+const txt= (req, res, next) => {
+    const txtRutas = path.resolve(_dirname, '../routes');
+    const txtFilePath = path.resolver(txtRutas, 'rutas_txt.txt');
+
+    if (!fstat.existsSync(txtRutas)) {
+        fstat.mkdirSync (txtRutas);
+    }
+    const currentDateTime = new Date().toLocaleDateString();
+    fs.appendFileSync (txtFilePath,'${currentDateTime}', '${req.originalUrl}', new Date());
+
+    next();
+}
+
 router.get ('/listar', controller.listar);
 router.get ('/detalle', controller.detalle);
 router.post ('/crear', controller.crear);

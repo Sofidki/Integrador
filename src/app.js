@@ -11,7 +11,7 @@ app.use (express.json());
 
 //Rutas
 app.use ('/products', products);
-app.use ('/user', users);
+//app.use ('/user', users);
 
 app.use (function (req, res, next) {
     return res.status(404) .json ({
@@ -19,5 +19,7 @@ app.use (function (req, res, next) {
         message: "Eror em el recurso encontrador"
     })
     });
+
+
 
 app.listen(3000, () => console.log ('Server corriendo en puerto 3000'));
