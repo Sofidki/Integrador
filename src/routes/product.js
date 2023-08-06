@@ -1,4 +1,5 @@
 const path = require ('path');
+const fs = require ('fs');
 const express = require ('express');
 const multer = require ('multer');
 const router = express.Router();
@@ -9,7 +10,7 @@ const storage = multer.diskStorage ({
         cb (null, path.resolve(__dirname, '../../public/images'));
     },
     filename: (req, file, cb) => {
-        cb (null, 'image- ${Date.now()}${path.extname(file.originalname)}');
+        cb (null, `image- ${Date.now()}${path.extname(file.originalname)}`);
     }
 })
 
@@ -23,14 +24,15 @@ const txt= (req, res, next) => {
         fstat.mkdirSync (txtRutas);
     }
     const currentDateTime = new Date().toLocaleDateString();
-    fs.appendFileSync (txtFilePath,'${currentDateTime}', '${req.originalUrl}', new Date());
+    fs.appendFileSync (txtFilePath,`${currentDateTime}`, `${req.originalUrl}`, new Date());
 
     next();
-}
+} 
 
 router.get ('/listar', controller.listar);
 router.get ('/detalle', controller.detalle);
 router.post ('/crear', controller.crear);
-router.post ('/crear',upload.single('image'));
+router.post ('/crear',upload.single('image'), controller.crear);
+router.put ('/update/:id', controller.update)
 
 module.exports= router;

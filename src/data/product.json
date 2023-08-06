@@ -1,111 +1,95 @@
 [
 {
-    "id": "1",
     "name":"Kit Indoor Carpa Ghp 100x100 + Insativa 3 + Accesorios. C.",
     "price": "480000",
     "description": "Carpa Garden Highpro 100x100x200 cm. Material:. Tela Mylar + Tela 600D. Ventilación: 5 mangas regulables + 1 ventana con mosquitero. Estructura: metal y conectores de plastico reforzado",
     "image": "Indoor 1.webp"
 },
 {
-    "id": "2",
     "name":"Combo Kit Cultivo Indoor Led Cob 200w Todo Listo Solo Arma",
     "price": "23000",
     "description": "Kit completo para armar panel! No necesitas nada mas!. Este kits incluye todos los materiales necesarios para el correcto funcionamiento del panel, solo necesitas realizar el ensamblaje. Se necesitará un destornillador tipo phillips y una alicate cortacables! Se recomienda tener conocimientos básicos de electricidad!",
     "image": "Indoor 3.webp"
 },
 {
-    "id": "3",
     "name":"Panel Led Growtech Indoor 300w Fullspectrum - Morocco Growsh",
     "price": "79000",
     "description": "Genera menos temperatura/calor: por un lado se utiliza menos potencia para la misma superficie. Por el otro, el LED irradia calor de forma concentrada y en dirección opuesta a la que ilumina. Esto hace que sea más sencillo eliminar el calor en relación a un HPS Sodio, que irradia calor en todas las direcciones.",
     "image": "Indoor 4.webp"
 },
 {
-    "id": "4",
     "name":"Kit Indoor Bellavita 100x100 + Growtech 400 W. + Accesorios",
     "price": "188000",
     "description": "Carpa Bellavita 100x100x200 cm. Material: Tela Mylar + Tela 600D. Ventilación: 2 mangas regulables + 1 ventana con mosquitero. Estructura: metal y conectores de plastico reforzado",
     "image": "Indoor 5.webp"
 },
 {
-    "id": "5",
     "name":"Picador Grinder Pikachu Atomic Plástico 3 Partes",
     "price": "1000",
     "description": "PRODUCTO: Publicacion corresponde a un (1). Picador grinder de 3 partes. Material: Plastico. Marca: Faro profa. Diametro: 5,5 cm. Alto: 2,5 cm.",
     "image": "picador 1.jpg"
 },
 {
-    "id": "6",
     "name":"Picador De Metal Amsterdan 4 Partes / Lion Rolling Circus",
     "price": "5000",
     "description": "Diseño Metálico con tapa. Altura: 40 mm Diametro 50 mm.",
     "image": "picador2.jpg"
 },
 {
-    "id": "7",
     "name":"Picador Metal Chico Colores Con Filtro Y Palita Kaizen",
     "price": "4000",
     "description":"Picador 3 partes Colores Chico Pastel Neon. Producto Picador 3 Pisos Color Chico. Picador Metalico Pequeño de 3 Pisos Color. POR FAVOR ANTES DE REALIZAR LA COMPRA CONSULTAR STOCK DE COLOR DISPONIBLE",
     "image": "picador3.jpg"
 },
 {
-    "id": "8",
     "name":"Cogonauts - Picador Coleccionable",
     "price": "9000",
     "description": "Picador grinder de hierbas coleccionable impreso en 3D. ncluye un STICKER SORPRESA. Material: PLA (Plástico biodegradable, de origen vegetal, apto gastronómico que se usa para la impresión 3D). Dimensiones: Diámetro interno: 5cm. Alto: 7cm. Ancho: 7,5cm. Peso: 71g",
     "image": "picador4.jpg"
 },
 {
-    "id": "9",
     "name":"Ocb Premium Black 1 1/4 Por Unidad Sedas",
     "price": "630",
     "description": "PAPELILLOS OCB NEGRO 1 1/4. 1 unidad, 50 papelillos. DALE LO MEJOR A TUS PLANTAS!",
     "image": "sedas1.jpg"
 },
 {
-    "id": "10",
     "name":"Sedas Organicas Raw Organic King Size Papel Para Armar",
     "price": "900",
     "description": "El papel Raw Organic está hecho de papel 100u0025 cañamo cultivado orgánicamente. El papel es 100u0025 libre de cloro, lo que da como resultado un color blanco claro natural. Cada caja contiene 32 papeles de puro cáñamo orgánico para tu disfrute. Cada papel tiene 110 mm de longitud y 44 mm de ancho. Cada papel Raw orgánico tiene una marca de agua única Raw que ayuda a prevenir un mal encendido y combustionado de tu cigarillo. El sabor de este papel es algo que nunca has probado. Permite fumar limpio, puro y natural.",
     "image": "sedas2.jpg"
 },
 {
-    "id": "11",
     "name":"Sedas Papel Para Armar Ocb Cáñamo Orgánico 1 1/4 - Up",
     "price": "500",
     "description": "Especificaciones: 78 mm x 44 mm. Papel de cáñamo. 100% Natural. 50 sedas por paquete.",
     "image": "sedas3.jpg"
 },
 {
-    "id": "12",
     "name":"Sedas Papel Para Armar Lion Rolling Circus Gorila",
     "price": "900",
     "description": "Especificaciones: 78 mm x 44 mm. Tintas vegetales. Combustión media. Goma arábiga. 33 hojas.",
     "image": "sedas4.jpg"
 },
 {
-    "id": "13",
     "name":"Bandeja Ocb Armadora Metal diseño limitado ",
     "price": "3000",
     "description": "Descripción: Marca: OCB. Origen: China. Material: Metal. Medidas: 29 cm , 19 cm , 2,5 cm",
     "image": "bandejas1.jpg"
 },
 {
-    "id": "14",
     "name":"Bandeja Ocb Armadora Metal ",
     "price": "2000",
     "description": "Marca: OCB. Origen: China. Material: Metal. Color: negro. Medidas: 29 cm , 19 cm , 2,5 cm",
     "image": "bandejas2.jpg"
 },
 {
-    "id": "15",
     "name":"Bandeja Diseño Para Armar Chica Personajes ",
     "price": "2000",
     "description": "nombre:Bandeja para Armar. Marca: Blunt Rey. Tamaño: 18x14cm. Material: Metal",
     "image": "bandeja3.jpg"
 },
 {
-    "id": "16",
     "name":"Bandeja Diseño Para Armar ",
     "price": "2000",
     "description": "Bandeja para armar. Marca: BLUNT REY. Material: Metal. Tamaño: 28x18cm.",

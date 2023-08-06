@@ -2,7 +2,12 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const products = require('./routes/product');
-const users = require('./routes/user');  
+//const users = require('./routes/user');  
+const connectToDb = require ('./database/models/Connect');
+
+/*Base de datos*/
+connectToDb();
+
 
 //Configuracion
 app.use (express.static(path.resolve(__dirname, '../public')));
