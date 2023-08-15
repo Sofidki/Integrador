@@ -30,9 +30,11 @@ const txt= (req, res, next) => {
 } 
 
 router.get ('/listar', controller.listar);
-router.get ('/detalle', controller.detalle);
+router.get ('/detalle/:id', controller.detalle);
 router.post ('/crear', controller.crear);
 router.post ('/crear',upload.single('image'), controller.crear);
-router.put ('/update/:id', controller.update)
+router.put ('/update/:id', controller.update);
+router.delete ('/delete/:d', upload.single('delete'), controller.delete);
+router.get ('/buscar/', controller.buscar);
 
 module.exports= router;

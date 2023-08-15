@@ -1,33 +1,31 @@
-const path = require('path');
-const fs = require('fs');
+const User = require('../database/models/User');
 
-//const ruta = path.resolve(__dirname, '');
-//const  = fs.readFileSync(ruta, {encoding: 'utf-8'});
-//let products = JSON.parse();
 
 const controller = {
-    crear: (req, res) => {
-        let user = {};
+    registro: async (req, res) => {
+        try{
+        let user = {
+        name: req.body.name,
+        password: req.body.password,
+        email: req.body.email,
+        }
+
+        const userDatabase = await User.create(user);
+        res.status(201).json(productDatabase);
+
+        
+    } catch (error) {
         if (!req.body.name) {
             return res.json ({mgs: 'El campo name es requerido'})
         }
-
-        user.id = user.length +1;
-        user.name = req.body.name;
-        user.price = req.body.price;
-        user.description = req.body.description;
-        user.image = req.body.image;
-
-        user.push(user);
-
-        //let userJson = JSON.stringifuser, null, 4);
-
-        //fs.writeFileSync(ruta, )
-
-        res.json ('Crear un usuario');
+        res.status(500).json({message:'Server error'});
+        }
     },
-    perfil: (req, res) => {
-        res.json ('Perfil del usuario');
+    login: async (req, res) => {
+        let user = await User.findOne ({email: req.body.email, password: req.body.password})
+        if (!user) {
+            return res.status(400).send ('Usuario o contraseña incorrecta')
+        }
     },
     detalle: (req, res) => {
         res.json ('Detalle del Usuario')
