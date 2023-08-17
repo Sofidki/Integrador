@@ -4,17 +4,8 @@ const express = require ('express');
 const multer = require ('multer');
 const router = express.Router();
 const controller = require ('../controllers/productController');
+const upload = require ('../middlewares/cargarImagen');
 
-const storage = multer.diskStorage ({
-    destination: (req, file, cb) => {
-        cb (null, path.resolve(__dirname, '../../public/images'));
-    },
-    filename: (req, file, cb) => {
-        cb (null, `image- ${Date.now()}${path.extname(file.originalname)}`);
-    }
-})
-
-const upload = multer ({storage: storage});
 
 const txt= (req, res, next) => {
     const txtRutas = path.resolve(_dirname, '../routes');
@@ -31,10 +22,9 @@ const txt= (req, res, next) => {
 
 router.get ('/listar', controller.listar);
 router.get ('/detalle/:id', controller.detalle);
-router.post ('/crear', controller.crear);
 router.post ('/crear',upload.single('image'), controller.crear);
 router.put ('/update/:id', controller.update);
-router.delete ('/delete/:d', upload.single('delete'), controller.delete);
+router.delete ('/delete/:id', controller.delete);
 router.get ('/buscar/', controller.buscar);
 
 module.exports= router;

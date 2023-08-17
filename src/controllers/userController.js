@@ -3,7 +3,7 @@ const User = require('../database/models/User');
 
 const controller = {
     registro: async (req, res) => {
-        try{
+        try {
         let user = {
         name: req.body.name,
         password: req.body.password,
@@ -11,9 +11,8 @@ const controller = {
         }
 
         const userDatabase = await User.create(user);
-        res.status(201).json(productDatabase);
-
-        
+        res.status(201).json(userDatabase);    
+    
     } catch (error) {
         if (!req.body.name) {
             return res.json ({mgs: 'El campo name es requerido'})
@@ -22,13 +21,18 @@ const controller = {
         }
     },
     login: async (req, res) => {
-        let user = await User.findOne ({email: req.body.email, password: req.body.password})
-        if (!user) {
-            return res.status(400).send ('Usuario o contraseña incorrecta')
+        try {
+            let user = await User.find({email: req.query.email});
+            if (!user) {
+                return res.status(400).send ('Usuario o contraseña incorrecta')
+            }
+        res.send(user);
+        } catch (error) {
+            res.status(404).json(error);
         }
     },
-    detalle: (req, res) => {
-        res.json ('Detalle del Usuario')
+    perfil: (req, res) => {
+        res.json ('Perfil del Usuario')
     }
 }
 

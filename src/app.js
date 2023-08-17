@@ -4,6 +4,7 @@ const app = express();
 const products = require('./routes/product');
 const user = require('./routes/user');  
 const connectToDb = require ('./database/models/Connect');
+const cors = require('cors')
 
 /*Base de datos*/
 connectToDb();
@@ -13,6 +14,7 @@ connectToDb();
 app.use (express.static(path.resolve(__dirname, '../public')));
 app.use (express.urlencoded({extended: false}));
 app.use (express.json());
+app.use (cors());
 
 //Rutas
 app.use ('/products', products);

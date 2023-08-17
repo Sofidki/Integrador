@@ -17,7 +17,10 @@ const productoSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    colors: [String],
+    colors: {
+        type: String,
+        required: true
+    },
     brand: String,
     image: String
 },{
