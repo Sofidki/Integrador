@@ -1,38 +1,28 @@
-const Product = require("../../../src/database/models/Product");
 
-const contenedorProductos = document.querySelector('#contenedor-producto');
-const menu = document.querySelector('.menu');
-const botonesCategorias = document.querySelector('.boton-categoria');
+const listado = document.querySelector('.producto');
+const botonesCategorias = document.querySelectorAll('.boton-categorias');
 
-function cargarProductos() {
-    Product.forEach(product => {
-        
-        const div = document.createElement("div");
-        div.classList.add("producto");
-        div.innerHTML = `
+
+fetch('http://localhost:3000/products/listar')
+    .then(res => res.json())
+    .then(data => {
+        data.forEach(product => {
+            listado.innerHTML += `
             <div class="producto">
-            <img class="producto-imagen" src="${producto.imagen}" alt="">
-            <div class="produproductocto-detalle">
-                <h3 class="producto-tituo">${producto.name}</h3>
-                <p class="producto-precio">$${producto.price}</p>
-                <button class="producto-agregar id="${producto.id}">Agregar</button>
-            </div>`
-    });
-}
+            <img class="producto-imagen" src="http://localhost:3000/images/${product.image}" alt="">
+                <div class="producto-detalle">
+                    <h3 class="producto-tituo">${product.name}</h3>
+                    <p class="producto-precio">$${product.price}</p>
+                    <button class="producto-agregar" id="">Agregar</button>
+                </div>
+            </div>
+            `;
+            
+        });
+    })
+    .catch(error => console.log('Hubo un error:' + error));
 
-cargarProductos();
 
-botonesCategorias.forEach(boton => {
-    boton.addEventListener("click", (e) => {
-        
-        botonesCategorias.forEach(boton => boton.classList.renove("active"));
-        e.currentTarget.classList.add("active");
 
-        if (e.currentTarget.id != "todos") {
-            const productosBotones = product.filter(prodcuto => product.category === e.currentTarget.id);
-            cargarProductos(productosBotones);
-        }else {
-            cargarProductos(producto);
-        }
-    });
-})
+
+

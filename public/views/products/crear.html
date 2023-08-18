@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../products/crear.css">
+    <script src="../products/crear.js" defer></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <div >
+        <img class="img" src="../logo.jpg" alt="Logo">
+    </div> 
+    </header>
+    <main>
+    <div class="wrapper">
+        <div class="form-box">
+            <h2>Registro</h2>
+            <form action="/products/crear" class="form-registro">
+                <div class="input-box" id="media-columna">
+                    <input type="text" required>
+                    <label for="name">Nombre</label>
+                </div>
+                <div class="input-box" id="media-columna">
+                    <input type="text" required>
+                    <label for="price">Precio</label>
+                </div>
+                <div class="input-box" id="media-columna">
+                    <input type="text" required>
+                    <label for="category">Categoria</label>
+                </div>
+                <div class="input-box" id="media-columna">
+                    <input type="text" required>
+                    <label for="colors">Color</label>
+                </div>
+                <div class="input-box" id="media-columna">
+                    <input type="text" required>
+                    <label for="brand">Marca</label>
+                </div>
+                <div class="input-box" id="columna">
+                    <input type="textarea" required>
+                    <label for="description">Descripcion</label>
+                </div>
+                <button class="btn">Imagen</button>
+                <button type="submit" class="btn">Registrar</button>
+            </form>
+        </div>
+    </main>
+    </body>
+    </html>

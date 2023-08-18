@@ -5,21 +5,18 @@
     font-family: monospace;
 }
 
-div.img{
-    position: fixed;
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 400px;
-    margin-left: 500px;
-    justify-content: center;
+.header {
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(177, 252, 102);
+    text-decoration: none;
 }
 
-img {
-    position: relative;    
-    width: 200px;    
+.logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 120px;
 }
 
 body {

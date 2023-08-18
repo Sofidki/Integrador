@@ -23,37 +23,12 @@
             <i class="bi bi-x"></i>
         </button>
     </header>
-        <div class="wrapper">
-        <aside>
-            <button class="close-menu" id="close-menu">
-                <i class="bi bi-x"></i>
-            </button>
-            <nav>
-                <ul class="menu">
-                    <li>
-                        <button onclick="" id="todos" class="boton-menu boton-categoria active">Todos los productos</button>
-                    </li>
-                    <li>
-                        <button onclick="cambiarCategoria ('Indoors')" id="indoors" class="boton-menu boton-categoria ">Indoors</button>
-                    </li>
-                    <li>
-                        <button onclick="cambiarCategoria ('Picadores')" id="picadores" class="boton-menu boton-categoria ">Picadores</button>
-                    </li>
-                    <li>
-                        <button onclick="cambiarCategoria ('Sedas')" id="sedas" class="boton-menu boton-categoria ">Sedas</button>
-                    </li>
-                    <li>
-                        <button onclick="cambiarCategoria ('Bandejas')" id="bandejas" class="boton-menu boton-categoria ">Bandejas</button>
-                    </li>
-                    <li>
-                        <a class="botton-menu boton-carrito" href="../products/carito.html" >
-                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito"></span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </aside>
+    
         <main>
+            <div>
+                <input type="text" placeholder="Buscar producto" id="searchInput"/>
+                <ol id="users"></ol>
+            </div>
             <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
             <div id="contenedor-productos" class="contenedor-productos">
                 <div class="producto">

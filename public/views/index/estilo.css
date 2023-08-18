@@ -1,0 +1,120 @@
+*{
+    font-family: monospace;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(177, 252, 102);
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    width: 120px;
+}
+
+.encabezado {
+    display: block;
+    padding: 2rem;
+    text-align: center;
+}
+
+.encabezado h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.encabezado mark {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(177, 252, 102, 0.719);
+    padding: 0.1rem;
+}
+
+h4 {
+    display: block;
+    align-items: center;
+}
+
+.productos {
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.productos h4 {
+    font-size: 30px;
+}
+
+
+.carrucel img {
+    width: 90px;
+}
+
+.nosotros h4{
+    font-size: 30px;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    background-color: rgb(177, 252, 102);
+    padding: 2rem;
+}
+
+.nosotros p {
+    display: block;
+    padding: 2rem;
+    margin: 1rem;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.elergirnos h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.elergirnos ol{
+    display: block;
+    margin: 50px;
+    column-count: 3;
+    column-gap: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.elergirnos p {
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background-color: rgb(177, 252, 102);
+}
+
+.contacto img {
+    margin: 30px;
+}
+
+.info h4 {
+    font-size: 20px;
+}
+
+.info {
+    justify-content: center;
+}
