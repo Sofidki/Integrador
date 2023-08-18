@@ -48,7 +48,7 @@ const controller = {
         }
         res.send(productList);
         } catch (error) {
-            console.log(error);
+            return res.status(500).json(error);
         }
     },
     delete: async (req,res) => {
@@ -63,8 +63,8 @@ const controller = {
     },
     buscar: async (req, res) => {
         try{
-            const product = await Product.find(req.query.name);            
-            res.status(404).json(product);
+            const product = await Product.find({name: req.query.name});            
+            res.status(200).json(product);
         } catch (error) {
             res.status(500).json(error);
         }
