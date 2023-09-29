@@ -20,11 +20,11 @@ const txt= (req, res, next) => {
     next();
 } 
 
-router.get ('/listar', controller.listar);
-router.get ('/detalle/:id', controller.detalle);
-router.post ('/crear',upload.single('image'), controller.crear);
-router.put ('/update/:id', controller.update);
-router.delete ('/delete/:id', controller.delete);
 router.get ('/buscar', controller.buscar);
+router.get ('/', controller.listar);
+router.get ('/detalle/:id', controller.detalle);
+router.post ('/',upload.single('image'), controller.crear);
+router.put ('/:id', controller.update);
+router.delete ('/:id', controller.delete);
 
 module.exports= router;

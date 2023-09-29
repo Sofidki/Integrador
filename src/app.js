@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const products = require('./routes/product');
+const products = require('./routes/products');
 const user = require('./routes/user');  
 const connectToDb = require ('./database/models/Connect');
 const cors = require('cors')
@@ -14,7 +14,7 @@ connectToDb();
 app.use (express.static(path.resolve(__dirname, '../public')));
 app.use (express.urlencoded({extended: false}));
 app.use (express.json());
-app.use (cors());
+app.use (cors({ origin: 'http://localhost:3000' }));
 
 //Rutas
 app.use ('/products', products);
@@ -29,4 +29,4 @@ app.use (function (req, res, next) {
 
 
 
-app.listen(3000,() => console.log ('Server corriendo en puerto 3000'));
+app.listen(3001,() => console.log ('Server corriendo en puerto 3001'));
