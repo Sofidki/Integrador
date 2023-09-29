@@ -1,0 +1,365 @@
+[{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079f4"
+  },
+  "name": "Kit Indoor Carpa Ghp 100x100 + Insativa 3 + Accesorios. C.",
+  "price": "480000",
+  "description": "Carpa Garden Highpro 100x100x200 cm. Material:. Tela Mylar + Tela 600D. Ventilación: 5 mangas regulables + 1 ventana con mosquitero. Estructura: metal y conectores de plastico reforzado",
+  "image": "Indoor 1.webp",
+  "brand": "Ghp",
+  "category": "Indoor",
+  "colors": "negra,gris",
+  "updatedAt": {
+    "$date": "2023-08-16T01:13:36.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079f6"
+  },
+  "name": "Panel Led Growtech Indoor 300w Fullspectrum - Morocco Growsh",
+  "price": "79000",
+  "description": "Genera menos temperatura/calor: por un lado se utiliza menos potencia para la misma superficie. Por el otro, el LED irradia calor de forma concentrada y en dirección opuesta a la que ilumina. Esto hace que sea más sencillo eliminar el calor en relación a un HPS Sodio, que irradia calor en todas las direcciones.",
+  "image": "Indoor 4.webp",
+  "updatedAt": {
+    "$date": "2023-08-16T00:28:03.269Z"
+  },
+  "brand": "Morocco",
+  "category": "Indoor",
+  "colors": "gris"
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079f7"
+  },
+  "name": "Kit Indoor Bellavita 100x100 + Growtech 400 W. + Accesorios",
+  "price": "188000",
+  "description": "Carpa Bellavita 100x100x200 cm. Material: Tela Mylar + Tela 600D. Ventilación: 2 mangas regulables + 1 ventana con mosquitero. Estructura: metal y conectores de plastico reforzado",
+  "image": "Indoor 5.webp",
+  "brand": "Bellavita",
+  "category": "Indoor",
+  "colors": "negra",
+  "updatedAt": {
+    "$date": "2023-08-16T01:14:40.190Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079f8"
+  },
+  "name": "Picador Grinder Pikachu Atomic Plástico 3 Partes",
+  "price": "1000",
+  "description": "PRODUCTO: Publicacion corresponde a un (1). Picador grinder de 3 partes. Material: Plastico. Marca: Faro profa. Diametro: 5,5 cm. Alto: 2,5 cm.",
+  "image": "picador 1.jpg",
+  "brand": "Grinder",
+  "category": "Picador",
+  "colors": "violeta,nranja,rojo,azul,transparente",
+  "updatedAt": {
+    "$date": "2023-08-16T01:16:23.778Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079f9"
+  },
+  "name": "Picador De Metal Amsterdan 4 Partes / Lion Rolling Circus",
+  "price": "5000",
+  "description": "Diseño Metálico con tapa. Altura: 40 mm Diametro 50 mm.",
+  "image": "picador2.jpg",
+  "brand": "Lion Rolling Circus",
+  "category": "Picador",
+  "colors": "gris",
+  "updatedAt": {
+    "$date": "2023-08-16T01:18:10.319Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079fa"
+  },
+  "name": "Picador Metal Chico Colores Con Filtro Y Palita Kaizen",
+  "price": "4000",
+  "description": "Picador 3 partes Colores Chico Pastel Neon. Producto Picador 3 Pisos Color Chico. Picador Metalico Pequeño de 3 Pisos Color. POR FAVOR ANTES DE REALIZAR LA COMPRA CONSULTAR STOCK DE COLOR DISPONIBLE",
+  "image": "picador3.jpg",
+  "brand": "Kaizen",
+  "category": "Picador",
+  "colors": "negro",
+  "updatedAt": {
+    "$date": "2023-08-16T01:20:12.911Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079fb"
+  },
+  "name": "Cogonauts - Picador Coleccionable",
+  "price": "9000",
+  "description": "Picador grinder de hierbas coleccionable impreso en 3D. ncluye un STICKER SORPRESA. Material: PLA (Plástico biodegradable, de origen vegetal, apto gastronómico que se usa para la impresión 3D). Dimensiones: Diámetro interno: 5cm. Alto: 7cm. Ancho: 7,5cm. Peso: 71g",
+  "image": "picador4.jpg",
+  "brand": "Cogonauts",
+  "category": "Picador",
+  "colors": "rojo,rosa,naranja",
+  "updatedAt": {
+    "$date": "2023-08-16T01:21:05.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079fc"
+  },
+  "name": "Ocb Premium Black 1 1/4 Por Unidad Sedas",
+  "price": "630",
+  "description": "PAPELILLOS OCB NEGRO 1 1/4. 1 unidad, 50 papelillos. DALE LO MEJOR A TUS PLANTAS!",
+  "image": "sedas1.jpg",
+  "brand": "Ocb",
+  "category": "Sedas",
+  "colors": "negro",
+  "updatedAt": {
+    "$date": "2023-08-16T01:22:03.524Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079fd"
+  },
+  "name": "Sedas Organicas Raw Organic King Size Papel Para Armar",
+  "price": "900",
+  "description": "El papel Raw Organic está hecho de papel 100u0025 cañamo cultivado orgánicamente. El papel es 100u0025 libre de cloro, lo que da como resultado un color blanco claro natural. Cada caja contiene 32 papeles de puro cáñamo orgánico para tu disfrute. Cada papel tiene 110 mm de longitud y 44 mm de ancho. Cada papel Raw orgánico tiene una marca de agua única Raw que ayuda a prevenir un mal encendido y combustionado de tu cigarillo. El sabor de este papel es algo que nunca has probado. Permite fumar limpio, puro y natural.",
+  "image": "sedas2.jpg",
+  "brand": "Raw",
+  "category": "Sedas",
+  "colors": "marron",
+  "updatedAt": {
+    "$date": "2023-08-16T01:23:03.890Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079fe"
+  },
+  "name": "Sedas Papel Para Armar Ocb Cáñamo Orgánico 1 1/4 - Up",
+  "price": "500",
+  "description": "Especificaciones: 78 mm x 44 mm. Papel de cáñamo. 100% Natural. 50 sedas por paquete.",
+  "image": "sedas3.jpg",
+  "brand": "Ocb",
+  "category": "Sedas",
+  "colors": "marron",
+  "updatedAt": {
+    "$date": "2023-08-16T01:23:34.571Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64cbe7ff91b28edcb98079ff"
+  },
+  "name": "Sedas Papel Para Armar Lion Rolling Circus Gorila",
+  "price": "900",
+  "description": "Especificaciones: 78 mm x 44 mm. Tintas vegetales. Combustión media. Goma arábiga. 33 hojas.",
+  "image": "sedas4.jpg",
+  "brand": "Lion Rolling Circus",
+  "category": "Sedas",
+  "colors": "amarillo,turquesa",
+  "updatedAt": {
+    "$date": "2023-08-16T01:25:00.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64db9d30d856d36ab1c90284"
+  },
+  "name": "prueba",
+  "price": 1000,
+  "description": "prueba",
+  "category": "prueba",
+  "colors": "prueba",
+  "createdAt": {
+    "$date": "2023-08-15T15:43:44.833Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-15T15:43:44.833Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847db"
+  },
+  "name": "Combo Kit Cultivo Indoor Led Cob 200w Todo Listo Solo Arma",
+  "price": "23000",
+  "description": "Kit completo para armar panel! No necesitas nada mas!. Este kits incluye todos los materiales necesarios para el correcto funcionamiento del panel, solo necesitas realizar el ensamblaje. Se necesitará un destornillador tipo phillips y una alicate cortacables! Se recomienda tener conocimientos básicos de electricidad!",
+  "image": "Indoor 3.webp",
+  "brand": "Led Cob",
+  "category": "Indoor",
+  "colors": "negro",
+  "updatedAt": {
+    "$date": "2023-08-16T01:26:45.940Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847dc"
+  },
+  "name": "Panel Led Growtech Indoor 300w Fullspectrum - Morocco Growsh",
+  "price": "79000",
+  "description": "Genera menos temperatura/calor: por un lado se utiliza menos potencia para la misma superficie. Por el otro, el LED irradia calor de forma concentrada y en dirección opuesta a la que ilumina. Esto hace que sea más sencillo eliminar el calor en relación a un HPS Sodio, que irradia calor en todas las direcciones.",
+  "image": "Indoor 4.webp"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847dd"
+  },
+  "name": "Kit Indoor Bellavita 100x100 + Growtech 400 W. + Accesorios",
+  "price": "188000",
+  "description": "Carpa Bellavita 100x100x200 cm. Material: Tela Mylar + Tela 600D. Ventilación: 2 mangas regulables + 1 ventana con mosquitero. Estructura: metal y conectores de plastico reforzado",
+  "image": "Indoor 5.webp"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847de"
+  },
+  "name": "Picador Grinder Pikachu Atomic Plástico 3 Partes",
+  "price": "1000",
+  "description": "PRODUCTO: Publicacion corresponde a un (1). Picador grinder de 3 partes. Material: Plastico. Marca: Faro profa. Diametro: 5,5 cm. Alto: 2,5 cm.",
+  "image": "picador 1.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847df"
+  },
+  "name": "Picador De Metal Amsterdan 4 Partes / Lion Rolling Circus",
+  "price": "5000",
+  "description": "Diseño Metálico con tapa. Altura: 40 mm Diametro 50 mm.",
+  "image": "picador2.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e0"
+  },
+  "name": "Picador Metal Chico Colores Con Filtro Y Palita Kaizen",
+  "price": "4000",
+  "description": "Picador 3 partes Colores Chico Pastel Neon. Producto Picador 3 Pisos Color Chico. Picador Metalico Pequeño de 3 Pisos Color. POR FAVOR ANTES DE REALIZAR LA COMPRA CONSULTAR STOCK DE COLOR DISPONIBLE",
+  "image": "picador3.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e1"
+  },
+  "name": "Cogonauts - Picador Coleccionable",
+  "price": "9000",
+  "description": "Picador grinder de hierbas coleccionable impreso en 3D. ncluye un STICKER SORPRESA. Material: PLA (Plástico biodegradable, de origen vegetal, apto gastronómico que se usa para la impresión 3D). Dimensiones: Diámetro interno: 5cm. Alto: 7cm. Ancho: 7,5cm. Peso: 71g",
+  "image": "picador4.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e2"
+  },
+  "name": "Ocb Premium Black 1 1/4 Por Unidad Sedas",
+  "price": "630",
+  "description": "PAPELILLOS OCB NEGRO 1 1/4. 1 unidad, 50 papelillos. DALE LO MEJOR A TUS PLANTAS!",
+  "image": "sedas1.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e3"
+  },
+  "name": "Sedas Organicas Raw Organic King Size Papel Para Armar",
+  "price": "900",
+  "description": "El papel Raw Organic está hecho de papel 100u0025 cañamo cultivado orgánicamente. El papel es 100u0025 libre de cloro, lo que da como resultado un color blanco claro natural. Cada caja contiene 32 papeles de puro cáñamo orgánico para tu disfrute. Cada papel tiene 110 mm de longitud y 44 mm de ancho. Cada papel Raw orgánico tiene una marca de agua única Raw que ayuda a prevenir un mal encendido y combustionado de tu cigarillo. El sabor de este papel es algo que nunca has probado. Permite fumar limpio, puro y natural.",
+  "image": "sedas2.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e4"
+  },
+  "name": "Sedas Papel Para Armar Ocb Cáñamo Orgánico 1 1/4 - Up",
+  "price": "500",
+  "description": "Especificaciones: 78 mm x 44 mm. Papel de cáñamo. 100% Natural. 50 sedas por paquete.",
+  "image": "sedas3.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e5"
+  },
+  "name": "Sedas Papel Para Armar Lion Rolling Circus Gorila",
+  "price": "900",
+  "description": "Especificaciones: 78 mm x 44 mm. Tintas vegetales. Combustión media. Goma arábiga. 33 hojas.",
+  "image": "sedas4.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e6"
+  },
+  "name": "Bandeja Ocb Armadora Metal diseño limitado ",
+  "price": "3000",
+  "description": "Descripción: Marca: OCB. Origen: China. Material: Metal. Medidas: 29 cm , 19 cm , 2,5 cm",
+  "image": "bandejas1.jpg",
+  "brand": "Ocb",
+  "category": "Bandeja",
+  "colors": "gris",
+  "updatedAt": {
+    "$date": "2023-08-16T01:28:23.411Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e7"
+  },
+  "name": "Bandeja Ocb Armadora Metal ",
+  "price": "2000",
+  "description": "Marca: OCB. Origen: China. Material: Metal. Color: negro. Medidas: 29 cm , 19 cm , 2,5 cm",
+  "image": "bandejas2.jpg",
+  "brand": "Ocb",
+  "category": "Bandeja",
+  "colors": "negra",
+  "updatedAt": {
+    "$date": "2023-08-16T01:29:02.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e8"
+  },
+  "name": "Bandeja Diseño Para Armar Chica Personajes ",
+  "price": "2000",
+  "description": "nombre:Bandeja para Armar. Marca: Blunt Rey. Tamaño: 18x14cm. Material: Metal",
+  "image": "bandeja3.jpg",
+  "brand": "Blunt Rey",
+  "category": "Bandeja",
+  "colors": "rosa",
+  "updatedAt": {
+    "$date": "2023-08-16T01:30:37.224Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dbb40bba2e3441874847e9"
+  },
+  "name": "Bandeja Diseño Para Armar ",
+  "price": "2000",
+  "description": "Bandeja para armar. Marca: BLUNT REY. Material: Metal. Tamaño: 28x18cm.",
+  "image": "bandeja4.jpg",
+  "brand": "Blunt Rey",
+  "category": "Bandeja",
+  "colors": "violeta",
+  "updatedAt": {
+    "$date": "2023-08-18T00:52:06.500Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dec07b4c8e39caef573c33"
+  },
+  "name": "prueba",
+  "price": 1000,
+  "description": "prueba",
+  "category": "prueba",
+  "colors": "prueba",
+  "brand": "prueba",
+  "createdAt": {
+    "$date": "2023-08-18T00:51:07.119Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-18T00:51:07.119Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "64dce659ac774049cfb03e7c"
+  },
+  "name": "prueba",
+  "password": "prueba123",
+  "email": "prueba@gmai.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64dce684ac774049cfb03e7e"
+  },
+  "name": "Sofi",
+  "password": "pruebaSofi",
+  "email": "pruebasofi@gmai.com",
+  "__v": 0
+}]
